@@ -24,7 +24,7 @@ git branch -d newbranch
 <!-- To work with the newbranch1 branch and eventually merge it into the main branch -->
 
 git checkout newbranch1
-
+-----------
 git status
 
 git add .
@@ -45,30 +45,4 @@ git checkout main
 <!-- Merge the changes: -->
 git merge newbranch1
 
-<!-- Unstage a file (remove from the staging area) -->
-git reset style.css
 
-
-<!-- View the remote repository URL -->
-git remote -v
-
-<!-- Fetch updates from a remote repository 
-You can get
- the latest changes from the remote repository without merging them into your local branch: -->
-
-git fetch
-
-
-<!-- Push changes to a remote repository Push your commits from your local branch to a remote branch: -->
-
-git push origin main
-
-# Git Stash
-<!-- need to quickly switch to another task or branch -->
-<!-- don’t want to commit your unfinished work  -->
-This command saves your uncommitted changes and reverts your working directory to the last commit.
-resets the working directory to match the last committed state.
-git stash
-git stash pop
-
-# Rebasing
