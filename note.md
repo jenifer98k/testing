@@ -24,7 +24,7 @@ git branch -d newbranch
 <!-- To work with the newbranch1 branch and eventually merge it into the main branch -->
 
 git checkout newbranch1
-
+-----------
 git status
 
 git add .
